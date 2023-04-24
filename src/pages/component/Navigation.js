@@ -10,7 +10,7 @@ const Navigation = () => {
 
     return (
         <div>
-              <nav className='w-full flex justify-between'>
+              <nav className='w-full px-[6%] py-3 flex justify-between'>
       <h3 className='font-bold text-lg'>LOGO</h3>
 
       <ul className="flex items-center gap-8">
@@ -27,6 +27,11 @@ const Navigation = () => {
           <li>
               <Link href="/doc">
                  <p>Doc</p>
+              </Link>
+          </li>
+          <li>
+              <Link href="/Users">
+                 <p>Users</p>
               </Link>
           </li>
           <li>
